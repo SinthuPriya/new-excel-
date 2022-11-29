@@ -21,7 +21,7 @@ public class Exceloperation {
 	XSSFSheet sheet=workbook.getSheetAt(0);
 	String entry1=sheet.getRow(1).getCell(1).getStringCellValue();
 	System.out.println("The data in the box is" +entry1);
-	
+	System.out.println("enter te data value");	
 	workbook.close();
 	
 		
